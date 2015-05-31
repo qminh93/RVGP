@@ -1,0 +1,37 @@
+@data
+[raw = off]
+../Dataset/EMSLP/emulate_train.bin
+../Dataset/EMSLP/emulate_test.bin
+../Dataset/EMSLP/emulate_support.bin
+../Dataset/EMSLP/emulate_hyper.bin
+[precomp = on]
+../Dataset/EMSLP/emulate_precomp.bin
+@dtc
+[mode = both]
+[time = no]
+1
+200
+5
+-1
+5
+0
+0.00001
+../Log/emulate_dtc_exact.time
+../Log/emulate_dtc_approx.time
+../Log/emulate_dtc_exact.log
+../Log/emulate_dtc_approx.log
+@pic
+[mode = approx]
+[time = no]
+1
+200
+5
+-1
+5
+0
+0.00001
+../Log/emulate_pic_exact_2.time
+../Log/emulate_pic_approx_2.time
+../Log/emulate_pic_exact_2.log
+../Log/emulate_pic_approx_2.log
+@exit

@@ -1,0 +1,28 @@
+@data
+[raw = on]
+../Dataset/EMSLP/emulate.csv
+1000
+512
+0.05
+../Dataset/EMSLP/emulate_hyper.csv
+../Dataset/EMSLP/emulate_train.bin
+../Dataset/EMSLP/emulate_test.bin
+../Dataset/EMSLP/emulate_support.bin
+../Dataset/EMSLP/emulate_hyper.bin
+[precomp = save]
+../Dataset/EMSLP/emulate_precomp.bin
+@pic
+[mode = exact]
+[time = yes]
+1
+200
+5
+-1
+5
+0
+0.00001
+../Log/emulate_pic_exact.time
+../Log/emulate_pic_approx.time
+../Log/emulate_pic_exact.log
+../Log/emulate_pic_approx.log
+@exit
